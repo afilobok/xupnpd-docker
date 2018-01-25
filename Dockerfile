@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:latest
+FROM alpine:latest
 MAINTAINER Arthur Filobok arthur.filobok@gmail.com
 
 # Install packages
