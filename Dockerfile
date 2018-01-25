@@ -1,5 +1,5 @@
 FROM alpine:3.5
-MAINTAINER Konstantin Odnoralov hostmit@gmail.com
+MAINTAINER Arthur Filobok arthur.filobok@gmail.com
 
 # Install packages
 RUN apk --no-cache add bash git alpine-sdk util-linux-dev openssl-dev
