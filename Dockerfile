@@ -1,8 +1,8 @@
-FROM alpine:3.5
+FROM lsiobase/alpine:latest
 MAINTAINER Arthur Filobok arthur.filobok@gmail.com
 
 # Install packages
-RUN apk --no-cache add bash git alpine-sdk util-linux-dev openssl-dev
+RUN apk --no-cache add bash git alpine-sdk util-linux-dev openssl-dev mc
 RUN git clone https://github.com/clark15b/xupnpd.git
 WORKDIR "/xupnpd/src/"
 RUN make
